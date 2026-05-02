@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 
 class ApiService {
   // Use localhost for Web, 10.0.2.2 for Android emulator
-    static const String baseUrl = 'http://10.174.38.175:8000/api'; // Replace with YOUR actual IPv4 address
+    static const String baseUrl = 'https://flutter-mad.onrender.com/api';
 
 
   Future<Map<String, String>> _getHeaders() async {

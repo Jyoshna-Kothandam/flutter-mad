@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(v60b+@^kgg9btdn-(v27rr8r_=5o&kqr30)r&^^^vt#$b$jau
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['flutter-mad.onrender.com', 'localhost', '127.0.0.1', '*']
 
 
 # Application definition
